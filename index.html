@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For My Love 💖</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- INTRO SCREEN -->
+<div id="intro" class="screen">
+    <h1>A Small Surprise For You ❤️</h1>
+    <button onclick="startSurprise()">Enter ✨</button>
+</div>
+
+<!-- PROPOSAL SCREEN -->
+<div id="proposal" class="screen hidden">
+    <h1>Will You Be My Valentine? 💍</h1>
+
+    <div class="buttons">
+        <button id="yesBtn">Yes ❤️</button>
+        <button id="noBtn">No 😏</button>
+    </div>
+</div>
+
+<!-- CELEBRATION SCREEN -->
+<div id="celebration" class="screen hidden">
+
+    <h1 id="typedText" class="love-text"></h1>
+
+    <div class="gif-container">
+
+        <!-- Tenor GIF Embed -->
+        <div class="tenor-gif-embed"
+             data-postid="4795696016183503774"
+             data-share-method="host"
+             data-aspect-ratio="1"
+             data-width="100%">
+        </div>
+
+    </div>
+    <button onclick="gotomyletter()">Read My Letter❤️</button>
+</div>
+
+</div>
+
+
+<!-- Music -->
+<audio id="music" src="valentine.mpeg"></audio>
+
+<!-- Your JS -->
+<script src="script.js"></script>
+
+<!-- Tenor Embed Script (Keep this at bottom, only once) -->
+<script async src="https://tenor.com/embed.js"></script>
+
+</body>
+</html>
